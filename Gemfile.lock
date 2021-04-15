@@ -1,0 +1,40 @@
+GIT
+  remote: https://github.com/makevoid/digest-sha3-ruby
+  revision: 887b1051dd8d642ad9b16ea2ba075e3463051d83
+  branch: ruby3
+  specs:
+    digest-sha3 (1.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    dry-inflector (0.2.0)
+    eth (0.4.10)
+      digest-sha3 (~> 1.1)
+      ffi (~> 1.0)
+      money-tree (~> 0.10.0)
+      rlp (~> 0.7.3)
+      scrypt (~> 3.0.6)
+    excon (0.79.0)
+    ffi (1.15.0)
+    ffi-compiler (1.0.1)
+      ffi (>= 1.0.0)
+      rake
+    money-tree (0.10.0)
+      ffi
+    rake (13.0.3)
+    rlp (0.7.3)
+    scrypt (3.0.7)
+      ffi-compiler (>= 1.0, < 2.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  digest-sha3!
+  dry-inflector
+  eth
+  excon
+
+BUNDLED WITH
+   2.2.3
